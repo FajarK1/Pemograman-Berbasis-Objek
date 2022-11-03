@@ -14,13 +14,13 @@ public class JOPbiodata {
        
       String nama = JOptionPane.showInputDialog("Masukkan nama anda!");
       int nim = Integer.parseInt(JOptionPane.showInputDialog("Masukkan NIM Anda!"));
-      String jurusan = JOptionPane.showInputDialog("Masukkan Jurusan Anda!");
+      int semester = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Semester Anda!"));
       String kampus = JOptionPane.showInputDialog("Masukkan Asal Kampus Anda!");
       
       System.out.println("*****Biodata Mahasiswa Institut Teknologi Sapta Mandiri*****");
       System.out.println("Nama \t\t: "+nama);
       System.out.println("NIM \t\t: "+nim);
-      System.out.println("Jurusan \t: "+jurusan);
+      System.out.println("Jurusan \t: "+semester);
       System.out.println("Asal Kampus\t: "+kampus);
       System.out.println("************************************************************");
     }
